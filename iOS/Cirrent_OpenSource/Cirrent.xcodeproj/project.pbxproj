@@ -1,0 +1,587 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F0190271E3E8417006C1CE9 /* RSAUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F0190261E3E8417006C1CE9 /* RSAUtil.m */; };
+		8039CA2E1E0B7EBD00617525 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA2D1E0B7EBD00617525 /* AppDelegate.swift */; };
+		8039CA331E0B7EBD00617525 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA311E0B7EBD00617525 /* Main.storyboard */; };
+		8039CA351E0B7EBD00617525 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA341E0B7EBD00617525 /* Assets.xcassets */; };
+		8039CA381E0B7EBD00617525 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA361E0B7EBD00617525 /* LaunchScreen.storyboard */; };
+		8039CA4B1E0B803600617525 /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA411E0B803600617525 /* APIService.swift */; };
+		8039CA4C1E0B803600617525 /* BaseType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA421E0B803600617525 /* BaseType.swift */; };
+		8039CA4D1E0B803600617525 /* CirrentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA431E0B803600617525 /* CirrentService.swift */; };
+		8039CA4E1E0B803600617525 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA441E0B803600617525 /* Constants.swift */; };
+		8039CA4F1E0B803600617525 /* LogService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA451E0B803600617525 /* LogService.swift */; };
+		8039CA501E0B803600617525 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA461E0B803600617525 /* Model.swift */; };
+		8039CA511E0B803600617525 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA471E0B803600617525 /* Reachability.swift */; };
+		8039CA531E0B803600617525 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA491E0B803600617525 /* SwiftyJSON.swift */; };
+		8039CA681E0B803F00617525 /* AddDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA551E0B803F00617525 /* AddDeviceController.swift */; };
+		8039CA691E0B803F00617525 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA561E0B803F00617525 /* BaseViewController.swift */; };
+		8039CA6A1E0B803F00617525 /* ConfigurationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA571E0B803F00617525 /* ConfigurationController.swift */; };
+		8039CA6B1E0B803F00617525 /* ConnectingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA581E0B803F00617525 /* ConnectingController.swift */; };
+		8039CA6C1E0B803F00617525 /* ConfigureNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA591E0B803F00617525 /* ConfigureNetworkController.swift */; };
+		8039CA6D1E0B803F00617525 /* GoToSoftAPController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5A1E0B803F00617525 /* GoToSoftAPController.swift */; };
+		8039CA6E1E0B803F00617525 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5B1E0B803F00617525 /* LoginController.swift */; };
+		8039CA6F1E0B803F00617525 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5C1E0B803F00617525 /* MenuController.swift */; };
+		8039CA701E0B803F00617525 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5D1E0B803F00617525 /* ProgressView.swift */; };
+		8039CA711E0B803F00617525 /* SelectDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5E1E0B803F00617525 /* SelectDeviceController.swift */; };
+		8039CA721E0B803F00617525 /* SetupDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA5F1E0B803F00617525 /* SetupDeviceController.swift */; };
+		8039CA731E0B803F00617525 /* ExSlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA611E0B803F00617525 /* ExSlideMenuController.swift */; };
+		8039CA741E0B803F00617525 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA621E0B803F00617525 /* Info.plist */; };
+		8039CA751E0B803F00617525 /* SlideMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA631E0B803F00617525 /* SlideMenuController.swift */; };
+		8039CA761E0B803F00617525 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA651E0B803F00617525 /* UIApplication.swift */; };
+		8039CA771E0B803F00617525 /* UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA661E0B803F00617525 /* UIViewController.swift */; };
+		8039CA781E0B803F00617525 /* SuccessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA671E0B803F00617525 /* SuccessViewController.swift */; };
+		8039CA7E1E0B804700617525 /* IdentifyActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA7A1E0B804700617525 /* IdentifyActionCell.swift */; };
+		8039CA7F1E0B804700617525 /* IdentifyActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA7B1E0B804700617525 /* IdentifyActionCell.xib */; };
+		8039CA801E0B804700617525 /* NormalActionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8039CA7C1E0B804700617525 /* NormalActionCell.swift */; };
+		8039CA811E0B804700617525 /* NormalActionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8039CA7D1E0B804700617525 /* NormalActionCell.xib */; };
+		803BC9EC1E5DEB1100AD4974 /* SampleCloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803BC9EB1E5DEB1100AD4974 /* SampleCloudService.swift */; };
+		803BC9F01E5E7BDA00AD4974 /* DeviceManageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 803BC9EF1E5E7BDA00AD4974 /* DeviceManageCell.swift */; };
+		8068AB841E4CEE4700776DF9 /* NetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 8068AB821E4CEE4700776DF9 /* NetworkTool.m */; };
+		80C79B551E65B1D700DE32E6 /* LPRTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C79B541E65B1D700DE32E6 /* LPRTableView.swift */; };
+		80C79B591E65C59700DE32E6 /* AddNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80C79B581E65C59700DE32E6 /* AddNetworkController.swift */; };
+		A99579311E8A4E73001F7D49 /* ManageDeviceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A995792F1E8A4E73001F7D49 /* ManageDeviceController.swift */; };
+		A99579321E8A4E73001F7D49 /* ManageNetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A99579301E8A4E73001F7D49 /* ManageNetworkController.swift */; };
+		EC1031106D19396A7CC28499 /* Pods_Cirrent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E824915129D275B54074B278 /* Pods_Cirrent.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F0190251E3E8417006C1CE9 /* RSAUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSAUtil.h; sourceTree = "<group>"; };
+		0F0190261E3E8417006C1CE9 /* RSAUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSAUtil.m; sourceTree = "<group>"; };
+		30E540D1E135B486E15D5BB3 /* Pods-Cirrent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrent.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrent/Pods-Cirrent.debug.xcconfig"; sourceTree = "<group>"; };
+		8039CA2A1E0B7EBD00617525 /* Cirrent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cirrent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8039CA2D1E0B7EBD00617525 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8039CA321E0B7EBD00617525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8039CA341E0B7EBD00617525 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8039CA371E0B7EBD00617525 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8039CA391E0B7EBD00617525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8039CA411E0B803600617525 /* APIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		8039CA421E0B803600617525 /* BaseType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseType.swift; sourceTree = "<group>"; };
+		8039CA431E0B803600617525 /* CirrentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirrentService.swift; sourceTree = "<group>"; };
+		8039CA441E0B803600617525 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		8039CA451E0B803600617525 /* LogService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogService.swift; sourceTree = "<group>"; };
+		8039CA461E0B803600617525 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		8039CA471E0B803600617525 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		8039CA491E0B803600617525 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		8039CA551E0B803F00617525 /* AddDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddDeviceController.swift; sourceTree = "<group>"; };
+		8039CA561E0B803F00617525 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		8039CA571E0B803F00617525 /* ConfigurationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigurationController.swift; sourceTree = "<group>"; };
+		8039CA581E0B803F00617525 /* ConnectingController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConnectingController.swift; sourceTree = "<group>"; };
+		8039CA591E0B803F00617525 /* ConfigureNetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConfigureNetworkController.swift; sourceTree = "<group>"; };
+		8039CA5A1E0B803F00617525 /* GoToSoftAPController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoToSoftAPController.swift; sourceTree = "<group>"; };
+		8039CA5B1E0B803F00617525 /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		8039CA5C1E0B803F00617525 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		8039CA5D1E0B803F00617525 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		8039CA5E1E0B803F00617525 /* SelectDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SelectDeviceController.swift; sourceTree = "<group>"; };
+		8039CA5F1E0B803F00617525 /* SetupDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupDeviceController.swift; sourceTree = "<group>"; };
+		8039CA611E0B803F00617525 /* ExSlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExSlideMenuController.swift; sourceTree = "<group>"; };
+		8039CA621E0B803F00617525 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8039CA631E0B803F00617525 /* SlideMenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideMenuController.swift; sourceTree = "<group>"; };
+		8039CA641E0B803F00617525 /* SlideMenuControllerSwift.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SlideMenuControllerSwift.h; sourceTree = "<group>"; };
+		8039CA651E0B803F00617525 /* UIApplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		8039CA661E0B803F00617525 /* UIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewController.swift; sourceTree = "<group>"; };
+		8039CA671E0B803F00617525 /* SuccessViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SuccessViewController.swift; sourceTree = "<group>"; };
+		8039CA7A1E0B804700617525 /* IdentifyActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IdentifyActionCell.swift; sourceTree = "<group>"; };
+		8039CA7B1E0B804700617525 /* IdentifyActionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IdentifyActionCell.xib; sourceTree = "<group>"; };
+		8039CA7C1E0B804700617525 /* NormalActionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NormalActionCell.swift; sourceTree = "<group>"; };
+		8039CA7D1E0B804700617525 /* NormalActionCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NormalActionCell.xib; sourceTree = "<group>"; };
+		8039CA821E0B811600617525 /* Cirrent-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Cirrent-Bridging-Header.h"; sourceTree = "<group>"; };
+		803BC9EB1E5DEB1100AD4974 /* SampleCloudService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCloudService.swift; sourceTree = "<group>"; };
+		803BC9EF1E5E7BDA00AD4974 /* DeviceManageCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceManageCell.swift; sourceTree = "<group>"; };
+		8068AB811E4CEE4700776DF9 /* NetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkTool.h; sourceTree = "<group>"; };
+		8068AB821E4CEE4700776DF9 /* NetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkTool.m; sourceTree = "<group>"; };
+		80C79B541E65B1D700DE32E6 /* LPRTableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LPRTableView.swift; sourceTree = "<group>"; };
+		80C79B581E65C59700DE32E6 /* AddNetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNetworkController.swift; sourceTree = "<group>"; };
+		950AED0DF52EA4E9C6CA9FF9 /* Pods-Cirrent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Cirrent.release.xcconfig"; path = "Pods/Target Support Files/Pods-Cirrent/Pods-Cirrent.release.xcconfig"; sourceTree = "<group>"; };
+		A995792F1E8A4E73001F7D49 /* ManageDeviceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageDeviceController.swift; sourceTree = "<group>"; };
+		A99579301E8A4E73001F7D49 /* ManageNetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManageNetworkController.swift; sourceTree = "<group>"; };
+		E824915129D275B54074B278 /* Pods_Cirrent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Cirrent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8039CA271E0B7EBD00617525 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC1031106D19396A7CC28499 /* Pods_Cirrent.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8039CA211E0B7EBD00617525 = {
+			isa = PBXGroup;
+			children = (
+				8039CA2C1E0B7EBD00617525 /* Cirrent */,
+				8039CA2B1E0B7EBD00617525 /* Products */,
+				D09B9A20FEA9705E9729343C /* Pods */,
+				9DFEF234A464C9176E492A0A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8039CA2B1E0B7EBD00617525 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8039CA2A1E0B7EBD00617525 /* Cirrent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8039CA2C1E0B7EBD00617525 /* Cirrent */ = {
+			isa = PBXGroup;
+			children = (
+				803BC9EA1E5DEB1100AD4974 /* SampleCloudService */,
+				8039CA791E0B804700617525 /* Cells */,
+				8039CA541E0B803F00617525 /* Controllers */,
+				8039CA3F1E0B803600617525 /* CirrentSDK */,
+				8039CA2D1E0B7EBD00617525 /* AppDelegate.swift */,
+				8039CA821E0B811600617525 /* Cirrent-Bridging-Header.h */,
+				8039CA311E0B7EBD00617525 /* Main.storyboard */,
+				8039CA341E0B7EBD00617525 /* Assets.xcassets */,
+				8039CA361E0B7EBD00617525 /* LaunchScreen.storyboard */,
+				8039CA391E0B7EBD00617525 /* Info.plist */,
+			);
+			path = Cirrent;
+			sourceTree = "<group>";
+		};
+		8039CA3F1E0B803600617525 /* CirrentSDK */ = {
+			isa = PBXGroup;
+			children = (
+				8068AB811E4CEE4700776DF9 /* NetworkTool.h */,
+				8068AB821E4CEE4700776DF9 /* NetworkTool.m */,
+				8039CA411E0B803600617525 /* APIService.swift */,
+				8039CA421E0B803600617525 /* BaseType.swift */,
+				8039CA431E0B803600617525 /* CirrentService.swift */,
+				8039CA441E0B803600617525 /* Constants.swift */,
+				8039CA451E0B803600617525 /* LogService.swift */,
+				8039CA461E0B803600617525 /* Model.swift */,
+				8039CA471E0B803600617525 /* Reachability.swift */,
+				8039CA491E0B803600617525 /* SwiftyJSON.swift */,
+				0F0190251E3E8417006C1CE9 /* RSAUtil.h */,
+				0F0190261E3E8417006C1CE9 /* RSAUtil.m */,
+			);
+			path = CirrentSDK;
+			sourceTree = "<group>";
+		};
+		8039CA541E0B803F00617525 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A995792F1E8A4E73001F7D49 /* ManageDeviceController.swift */,
+				A99579301E8A4E73001F7D49 /* ManageNetworkController.swift */,
+				80C79B541E65B1D700DE32E6 /* LPRTableView.swift */,
+				80C79B581E65C59700DE32E6 /* AddNetworkController.swift */,
+				8039CA551E0B803F00617525 /* AddDeviceController.swift */,
+				8039CA561E0B803F00617525 /* BaseViewController.swift */,
+				8039CA571E0B803F00617525 /* ConfigurationController.swift */,
+				8039CA581E0B803F00617525 /* ConnectingController.swift */,
+				8039CA591E0B803F00617525 /* ConfigureNetworkController.swift */,
+				8039CA5A1E0B803F00617525 /* GoToSoftAPController.swift */,
+				8039CA5B1E0B803F00617525 /* LoginController.swift */,
+				8039CA5C1E0B803F00617525 /* MenuController.swift */,
+				8039CA5D1E0B803F00617525 /* ProgressView.swift */,
+				8039CA5E1E0B803F00617525 /* SelectDeviceController.swift */,
+				8039CA5F1E0B803F00617525 /* SetupDeviceController.swift */,
+				8039CA671E0B803F00617525 /* SuccessViewController.swift */,
+				8039CA601E0B803F00617525 /* SliderMenuController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		8039CA601E0B803F00617525 /* SliderMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				8039CA611E0B803F00617525 /* ExSlideMenuController.swift */,
+				8039CA621E0B803F00617525 /* Info.plist */,
+				8039CA631E0B803F00617525 /* SlideMenuController.swift */,
+				8039CA641E0B803F00617525 /* SlideMenuControllerSwift.h */,
+				8039CA651E0B803F00617525 /* UIApplication.swift */,
+				8039CA661E0B803F00617525 /* UIViewController.swift */,
+			);
+			path = SliderMenuController;
+			sourceTree = "<group>";
+		};
+		8039CA791E0B804700617525 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8039CA7A1E0B804700617525 /* IdentifyActionCell.swift */,
+				8039CA7B1E0B804700617525 /* IdentifyActionCell.xib */,
+				8039CA7C1E0B804700617525 /* NormalActionCell.swift */,
+				8039CA7D1E0B804700617525 /* NormalActionCell.xib */,
+				803BC9EF1E5E7BDA00AD4974 /* DeviceManageCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		803BC9EA1E5DEB1100AD4974 /* SampleCloudService */ = {
+			isa = PBXGroup;
+			children = (
+				803BC9EB1E5DEB1100AD4974 /* SampleCloudService.swift */,
+			);
+			path = SampleCloudService;
+			sourceTree = "<group>";
+		};
+		9DFEF234A464C9176E492A0A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E824915129D275B54074B278 /* Pods_Cirrent.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D09B9A20FEA9705E9729343C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				30E540D1E135B486E15D5BB3 /* Pods-Cirrent.debug.xcconfig */,
+				950AED0DF52EA4E9C6CA9FF9 /* Pods-Cirrent.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8039CA291E0B7EBD00617525 /* Cirrent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8039CA3C1E0B7EBD00617525 /* Build configuration list for PBXNativeTarget "Cirrent" */;
+			buildPhases = (
+				4BBAEFCA411A2FA9E1D29815 /* [CP] Check Pods Manifest.lock */,
+				8039CA261E0B7EBD00617525 /* Sources */,
+				8039CA271E0B7EBD00617525 /* Frameworks */,
+				8039CA281E0B7EBD00617525 /* Resources */,
+				F3A67E258DF6E69B90779B8E /* [CP] Embed Pods Frameworks */,
+				6F1748C3BDE3F7CD977AF317 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cirrent;
+			productName = Cirrent;
+			productReference = 8039CA2A1E0B7EBD00617525 /* Cirrent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8039CA221E0B7EBD00617525 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cirrent;
+				TargetAttributes = {
+					8039CA291E0B7EBD00617525 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M29Q3CPGBW;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8039CA251E0B7EBD00617525 /* Build configuration list for PBXProject "Cirrent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8039CA211E0B7EBD00617525;
+			productRefGroup = 8039CA2B1E0B7EBD00617525 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8039CA291E0B7EBD00617525 /* Cirrent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8039CA281E0B7EBD00617525 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8039CA811E0B804700617525 /* NormalActionCell.xib in Resources */,
+				8039CA7F1E0B804700617525 /* IdentifyActionCell.xib in Resources */,
+				8039CA741E0B803F00617525 /* Info.plist in Resources */,
+				8039CA381E0B7EBD00617525 /* LaunchScreen.storyboard in Resources */,
+				8039CA351E0B7EBD00617525 /* Assets.xcassets in Resources */,
+				8039CA331E0B7EBD00617525 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4BBAEFCA411A2FA9E1D29815 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6F1748C3BDE3F7CD977AF317 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrent/Pods-Cirrent-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A67E258DF6E69B90779B8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Cirrent/Pods-Cirrent-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8039CA261E0B7EBD00617525 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8039CA691E0B803F00617525 /* BaseViewController.swift in Sources */,
+				8039CA711E0B803F00617525 /* SelectDeviceController.swift in Sources */,
+				8039CA4D1E0B803600617525 /* CirrentService.swift in Sources */,
+				8039CA761E0B803F00617525 /* UIApplication.swift in Sources */,
+				803BC9EC1E5DEB1100AD4974 /* SampleCloudService.swift in Sources */,
+				8039CA2E1E0B7EBD00617525 /* AppDelegate.swift in Sources */,
+				8039CA4B1E0B803600617525 /* APIService.swift in Sources */,
+				8039CA6F1E0B803F00617525 /* MenuController.swift in Sources */,
+				8039CA6C1E0B803F00617525 /* ConfigureNetworkController.swift in Sources */,
+				8039CA731E0B803F00617525 /* ExSlideMenuController.swift in Sources */,
+				8039CA531E0B803600617525 /* SwiftyJSON.swift in Sources */,
+				8039CA781E0B803F00617525 /* SuccessViewController.swift in Sources */,
+				8039CA4C1E0B803600617525 /* BaseType.swift in Sources */,
+				A99579311E8A4E73001F7D49 /* ManageDeviceController.swift in Sources */,
+				8039CA721E0B803F00617525 /* SetupDeviceController.swift in Sources */,
+				8039CA7E1E0B804700617525 /* IdentifyActionCell.swift in Sources */,
+				80C79B551E65B1D700DE32E6 /* LPRTableView.swift in Sources */,
+				8039CA511E0B803600617525 /* Reachability.swift in Sources */,
+				A99579321E8A4E73001F7D49 /* ManageNetworkController.swift in Sources */,
+				8039CA6A1E0B803F00617525 /* ConfigurationController.swift in Sources */,
+				8039CA801E0B804700617525 /* NormalActionCell.swift in Sources */,
+				8039CA4F1E0B803600617525 /* LogService.swift in Sources */,
+				8039CA681E0B803F00617525 /* AddDeviceController.swift in Sources */,
+				0F0190271E3E8417006C1CE9 /* RSAUtil.m in Sources */,
+				8039CA6E1E0B803F00617525 /* LoginController.swift in Sources */,
+				8068AB841E4CEE4700776DF9 /* NetworkTool.m in Sources */,
+				8039CA6B1E0B803F00617525 /* ConnectingController.swift in Sources */,
+				80C79B591E65C59700DE32E6 /* AddNetworkController.swift in Sources */,
+				8039CA771E0B803F00617525 /* UIViewController.swift in Sources */,
+				8039CA6D1E0B803F00617525 /* GoToSoftAPController.swift in Sources */,
+				8039CA701E0B803F00617525 /* ProgressView.swift in Sources */,
+				803BC9F01E5E7BDA00AD4974 /* DeviceManageCell.swift in Sources */,
+				8039CA4E1E0B803600617525 /* Constants.swift in Sources */,
+				8039CA751E0B803F00617525 /* SlideMenuController.swift in Sources */,
+				8039CA501E0B803600617525 /* Model.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8039CA311E0B7EBD00617525 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8039CA321E0B7EBD00617525 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8039CA361E0B7EBD00617525 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8039CA371E0B7EBD00617525 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8039CA3A1E0B7EBD00617525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8039CA3B1E0B7EBD00617525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8039CA3D1E0B7EBD00617525 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30E540D1E135B486E15D5BB3 /* Pods-Cirrent.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M29Q3CPGBW;
+				INFOPLIST_FILE = Cirrent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pok.mytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cirrent/Cirrent-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		8039CA3E1E0B7EBD00617525 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 950AED0DF52EA4E9C6CA9FF9 /* Pods-Cirrent.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M29Q3CPGBW;
+				INFOPLIST_FILE = Cirrent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pok.mytest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Cirrent/Cirrent-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8039CA251E0B7EBD00617525 /* Build configuration list for PBXProject "Cirrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8039CA3A1E0B7EBD00617525 /* Debug */,
+				8039CA3B1E0B7EBD00617525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8039CA3C1E0B7EBD00617525 /* Build configuration list for PBXNativeTarget "Cirrent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8039CA3D1E0B7EBD00617525 /* Debug */,
+				8039CA3E1E0B7EBD00617525 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8039CA221E0B7EBD00617525 /* Project object */;
+}

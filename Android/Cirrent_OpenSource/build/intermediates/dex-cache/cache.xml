@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/Cirrent_OpenSource/cirrentsdk/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="1c4082c2e646379946df6795fcf7800d80ccceee">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/Cirrent_OpenSource-cirrentsdk-unspecified_360dfa7751e47eff8234e7de32cc186e350e53cb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="70f23cb87278f89aa51e6f57e8f0fd5266572d95">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.3.0_8a722e8e74f88f24a01b62449145a03727ed8580.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93c1199fcb0a34b980e6fff8350daff62e696ec2">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.3.0_2b244d513bb5d3f55fad7c5919ac3fd4a70861c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.daimajia.swipelayout-library-1.2.0_6ec0ea2f9af1286ed8a32868f5b1bfc207e86818.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="425c7b17887e5c3f8cbdf67ba171bc246f29b42c">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.3.0_9791f1292a8a423e13641006e024dbed55a786f1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/marco/.gradle/caches/modules-2/files-2.1/com.loopj.android/android-async-http/1.4.9/386a4339ffe52d5d63e80f9bed8d2b1d1a418249/android-async-http-1.4.9.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="386a4339ffe52d5d63e80f9bed8d2b1d1a418249">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/android-async-http-1.4.9_11266e8a04b8f7090b9e48471ab2ea8c6627e171.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.3.0_99d5ec5fc8b660f962240b7c66cbb160fd4daf88.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/marco/.gradle/caches/modules-2/files-2.1/cz.msebera.android/httpclient/4.3.6/526a9f794eab830eae4f23a62c572878b3f491ab/httpclient-4.3.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="526a9f794eab830eae4f23a62c572878b3f491ab">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/httpclient-4.3.6_e16729dfb0a098cd6d592afdf62dfbfb7a65b345.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="518768f3200963fbfec652f498da2c9d39245234">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.3.0_a7ebec866ed64e226e6016ccd0238af330c5af36.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/transition/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="fbb206f7a119f66ce171d95aae1225a5b209a8b7">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.3.0_a17d7ffd205c977cd78b9bbec6d22e59627ae7b6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/marco/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.0/support-annotations-25.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="dd84903d2e1af25a6081ef9038ad863cb14ca3a0">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/support-annotations-25.3.0_99d253fa3a9f9ea6dc4cb977de01a8278a02f26a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="5cc5ef8347a6bafa14556cbd35230aa9b3431bb0">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.3.0_57740e68cf012cb95077ce91b576b6835b50c2d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/marco/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_cddcefe6d2749ebf2e3cdaa052014d468ffde7f9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/design/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="9ab787a20aae245b5b3651ae0b9c38459eb37715">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.3.0_83cc04ddaea783a08b0e0a9f028072593b032b1b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="d6a04527c17597019dad82777c5094a3d60d1c33">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.3.0_7c57daa96877584d1f265a3c56afb44637029ad5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="a3e61044038fb54cddf6b8dc79f41d2b57f42caf">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.3.0_23fd56210b75a9e6d61f3a8f8f7ed1a78dcede7c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="4b746ef0fd46acb5aaf3d9ab9a4cec22c28d3211">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.3.0_cce7d94658e98930ad2361a6bc047617da5b9936.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.3.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.1"
+        sha1="93c10d68ab5ea070f15782ae6d3a28d1f1d8f45e">
+        <dex dex="/Volumes/Work/Work/cirrent-app-android/Cirrent_OpenSource/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.3.0_455b037d226ea5f81f071ee246f6f90b24f6e75d.jar" />
+    </item>
+
+</items>

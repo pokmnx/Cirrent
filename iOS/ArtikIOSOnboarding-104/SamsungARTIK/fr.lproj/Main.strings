@@ -1,0 +1,111 @@
+
+/* Class = "UITextField"; placeholder = "Enter Module Location"; ObjectID = "0ZV-7m-tB5"; */
+"0ZV-7m-tB5.placeholder" = "Enter Module Location";
+
+/* Class = "UITextField"; placeholder = "Emaild Id"; ObjectID = "0sk-Ny-ztc"; */
+"0sk-Ny-ztc.placeholder" = "Emaild Id";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "18O-I9-eyl"; */
+"18O-I9-eyl.normalTitle" = "SKIP";
+
+/* Class = "UITextField"; text = "QR Code Scanning"; ObjectID = "2t8-cf-tIQ"; */
+"2t8-cf-tIQ.text" = "QR Code Scanning";
+
+/* Class = "UITextField"; placeholder = "Confirm Password"; ObjectID = "5q3-YB-e2H"; */
+"5q3-YB-e2H.placeholder" = "Confirm Password";
+
+/* Class = "UITextField"; placeholder = "Enter Module Name"; ObjectID = "61p-XL-wpB"; */
+"61p-XL-wpB.placeholder" = "Enter Module Name";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "9fe-Ir-pN8"; */
+"9fe-Ir-pN8.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Login Failed"; ObjectID = "9ff-3j-RII"; */
+"9ff-3j-RII.text" = "Login Failed";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "DQQ-na-rfV"; */
+"DQQ-na-rfV.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Submit"; ObjectID = "E0f-eg-0Le"; */
+"E0f-eg-0Le.normalTitle" = "Submit";
+
+/* Class = "UILabel"; text = "Model Id"; ObjectID = "Eev-oR-6oP"; */
+"Eev-oR-6oP.text" = "Model Id";
+
+/* Class = "UIButton"; normalTitle = "ENTER"; ObjectID = "FQt-JI-uO7"; */
+"FQt-JI-uO7.normalTitle" = "ENTER";
+
+/* Class = "UITextField"; text = "Available Wi-Fi Network"; ObjectID = "G20-aN-S6i"; */
+"G20-aN-S6i.text" = "Available Wi-Fi Network";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "HPw-HA-1fJ"; */
+"HPw-HA-1fJ.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "Add new"; ObjectID = "MMz-WD-viL"; */
+"MMz-WD-viL.normalTitle" = "Add new";
+
+/* Class = "UILabel"; text = "UUID 00000000"; ObjectID = "NOK-Cs-kLM"; */
+"NOK-Cs-kLM.text" = "UUID 00000000";
+
+/* Class = "UIButton"; normalTitle = "Please wait...."; ObjectID = "PN3-IY-LU0"; */
+"PN3-IY-LU0.normalTitle" = "Please wait....";
+
+/* Class = "UILabel"; text = "Your device has been successfully registered on cloud"; ObjectID = "SJx-jU-MGz"; */
+"SJx-jU-MGz.text" = "Your device has been successfully registered on cloud";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?   "; ObjectID = "SYa-f8-bKm"; */
+"SYa-f8-bKm.normalTitle" = "Forgot Password?   ";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "UFT-4V-Qa1"; */
+"UFT-4V-Qa1.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "Name"; ObjectID = "Xpl-kE-HsG"; */
+"Xpl-kE-HsG.text" = "Name";
+
+/* Class = "UIButton"; normalTitle = "Continue"; ObjectID = "YLo-OG-X0v"; */
+"YLo-OG-X0v.normalTitle" = "Continue";
+
+/* Class = "UIButton"; normalTitle = "New User"; ObjectID = "YWJ-LR-SpE"; */
+"YWJ-LR-SpE.normalTitle" = "New User";
+
+/* Class = "UITextField"; text = "Manual Input"; ObjectID = "ZQY-CJ-Pbw"; */
+"ZQY-CJ-Pbw.text" = "Manual Input";
+
+/* Class = "UITextField"; placeholder = "User Name"; ObjectID = "Zap-Bi-yr7"; */
+"Zap-Bi-yr7.placeholder" = "User Name";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "aYh-hw-F69"; */
+"aYh-hw-F69.normalTitle" = "Cancel";
+
+/* Class = "UIButton"; normalTitle = "Connect to Wi-Fi"; ObjectID = "cJ0-Id-M7i"; */
+"cJ0-Id-M7i.normalTitle" = "Connect to Wi-Fi";
+
+/* Class = "UIButton"; normalTitle = "Logout"; ObjectID = "eei-qZ-zzL"; */
+"eei-qZ-zzL.normalTitle" = "Logout";
+
+/* Class = "UILabel"; text = "Center the module QR code in the window. The UUID will be captured automatically."; ObjectID = "f09-To-10l"; */
+"f09-To-10l.text" = "Center the module QR code in the window. The UUID will be captured automatically.";
+
+/* Class = "UITextField"; text = "Pairing Device"; ObjectID = "fI0-00-yHW"; */
+"fI0-00-yHW.text" = "Pairing Device";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "fhU-be-sWU"; */
+"fhU-be-sWU.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "Locatoion"; ObjectID = "n3R-7M-g1s"; */
+"n3R-7M-g1s.text" = "Locatoion";
+
+/* Class = "UILabel"; text = "QR Code"; ObjectID = "pdk-QU-8Ob"; */
+"pdk-QU-8Ob.text" = "QR Code";
+
+/* Class = "UITextField"; text = "ARTIK Module Identified"; ObjectID = "rpK-fM-Ofj"; */
+"rpK-fM-Ofj.text" = "ARTIK Module Identified";
+
+/* Class = "UITextField"; text = "All"; ObjectID = "tFR-vt-9Ex"; */
+"tFR-vt-9Ex.text" = "All";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "v24-kd-glH"; */
+"v24-kd-glH.placeholder" = "Password";
+
+/* Class = "UIButton"; normalTitle = "Login"; ObjectID = "zge-Ld-d5a"; */
+"zge-Ld-d5a.normalTitle" = "Login";

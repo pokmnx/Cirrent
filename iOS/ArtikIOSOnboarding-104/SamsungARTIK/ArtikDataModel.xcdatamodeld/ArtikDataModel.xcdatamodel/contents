@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1212" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="DeviceType" representedClassName="DeviceType" syncable="YES" codeGenerationType="class">
+        <attribute name="cloudConnector" optional="YES" attributeType="Integer 16" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="describe" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtid" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Manifest" representedClassName="Manifest" syncable="YES" codeGenerationType="class">
+        <attribute name="dtid" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="properties" optional="YES" attributeType="Transformable" customClassName="AnyObject" syncable="YES"/>
+        <attribute name="version" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Messages" representedClassName="Messages" syncable="YES" codeGenerationType="class">
+        <attribute name="data" optional="YES" attributeType="Transformable" customClassName="AnyObject" syncable="YES"/>
+        <attribute name="mid" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="sdid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ts" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <entity name="Module" representedClassName="Module" syncable="YES" codeGenerationType="class">
+        <attribute name="connected" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdOn" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="dtid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="lastSeen" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="manifestVersion" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="manifestVersionPolicy" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="moduleLocation" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="needProviderAuth" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="snapshot" optional="YES" attributeType="Transformable" customClassName="AnyObject" syncable="YES"/>
+        <attribute name="sno" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DeviceType" positionX="-675" positionY="102" width="128" height="28"/>
+        <element name="Manifest" positionX="-207" positionY="63" width="128" height="90"/>
+        <element name="Messages" positionX="-36" positionY="93" width="128" height="105"/>
+        <element name="Module" positionX="-434" positionY="69" width="128" height="225"/>
+    </elements>
+</model>

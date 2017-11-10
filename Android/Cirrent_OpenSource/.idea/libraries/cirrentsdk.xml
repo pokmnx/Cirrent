@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="cirrentsdk">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/cirrentsdk/libs/cirrentsdk.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,6 @@
+framework module ActionCell {
+  umbrella header "ActionCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

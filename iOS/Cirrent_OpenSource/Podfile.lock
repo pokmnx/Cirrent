@@ -1,0 +1,26 @@
+PODS:
+  - ActionCell (2.0.8)
+  - IQKeyboardManagerSwift (4.0.9)
+  - JGProgressHUD (1.4)
+  - OpenSSL-Universal (1.0.1.20)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+
+DEPENDENCIES:
+  - ActionCell (~> 2.0.0)
+  - IQKeyboardManagerSwift (~> 4.0.9)
+  - JGProgressHUD
+  - OpenSSL-Universal (~> 1.0)
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  ActionCell: 84e2964bcfa756b22983edf05662c82deb67749d
+  IQKeyboardManagerSwift: 2eefe6c429b86aa08bfbc1b5c891164d754adf91
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  OpenSSL-Universal: 71f2c4b2ae758e2218090f905e95ca0ac5c01be7
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+
+PODFILE CHECKSUM: 94ce4b0d4db205c676a5f07099a033f1a82c19d5
+
+COCOAPODS: 1.2.1

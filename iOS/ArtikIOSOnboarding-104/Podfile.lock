@@ -1,0 +1,72 @@
+PODS:
+  - AFNetworking (3.0.0):
+    - AFNetworking/NSURLSession (= 3.0.0)
+    - AFNetworking/Reachability (= 3.0.0)
+    - AFNetworking/Security (= 3.0.0)
+    - AFNetworking/Serialization (= 3.0.0)
+    - AFNetworking/UIKit (= 3.0.0)
+  - AFNetworking/NSURLSession (3.0.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.0.0)
+  - AFNetworking/Security (3.0.0)
+  - AFNetworking/Serialization (3.0.0)
+  - AFNetworking/UIKit (3.0.0):
+    - AFNetworking/NSURLSession
+  - ArtikCloud (2.0.8):
+    - AFNetworking (~> 3)
+    - ISO8601 (~> 0.5)
+    - JSONModel (~> 1.2)
+  - Crashlytics (3.8.4):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.11)
+  - ISO8601 (0.6.0)
+  - JGProgressHUD (1.4)
+  - JSONModel (1.7.0)
+  - KCFloatingActionButton (2.2.0)
+  - ReachabilitySwift (3)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - SwiftKeychainWrapper (3.0.1)
+  - Toaster (2.0.3)
+
+DEPENDENCIES:
+  - AFNetworking (= 3.0)
+  - ArtikCloud (from `https://github.com/vaibhav3002/artikcloud-objc.git`)
+  - Crashlytics
+  - Fabric
+  - JGProgressHUD
+  - KCFloatingActionButton (~> 2.2.0)
+  - ReachabilitySwift (~> 3)
+  - SDWebImage
+  - SwiftKeychainWrapper
+  - Toaster (~> 2.0)
+
+EXTERNAL SOURCES:
+  ArtikCloud:
+    :git: https://github.com/vaibhav3002/artikcloud-objc.git
+
+CHECKOUT OPTIONS:
+  ArtikCloud:
+    :commit: f6bdbf17ae94afcaf7189391db7c8a9c56c7f4d7
+    :git: https://github.com/vaibhav3002/artikcloud-objc.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 932ff751f9d6fb1dad0b3af58b7e3ffba0a4e7fd
+  ArtikCloud: 67074cb833833ccdc891d47bbc879e3168c672cc
+  Crashlytics: 79e236942ca1e7fc641df1feb9a275360a78ab6a
+  Fabric: 5911403591946b8228ab1c51d98f1d7137e863c6
+  ISO8601: d3ea3ba9b752820cf92c6b47a9ee327e9f0e13fc
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  JSONModel: 840bc0fcffb24b8454d2c026bf26fea454b8e98d
+  KCFloatingActionButton: 8c71fa25774e422c8d407f82b4b27809d0cd5233
+  ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  SwiftKeychainWrapper: 38952a3636320ae61bad3513cadd870929de7a4a
+  Toaster: 77c0b03d78e680bbbab0071c9c7ee392b0034010
+
+PODFILE CHECKSUM: 1f92566ab9a15b0a8b3e7994d7d8fc47c54a1015
+
+COCOAPODS: 1.2.1

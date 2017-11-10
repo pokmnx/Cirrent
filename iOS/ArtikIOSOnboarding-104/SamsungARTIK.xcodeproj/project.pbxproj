@@ -1,0 +1,1265 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180E7C651E3093A00085BEFD /* DropDownViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E7C641E30939F0085BEFD /* DropDownViewController.swift */; };
+		180E7C671E35CF160085BEFD /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E7C661E35CF150085BEFD /* UserProfileViewController.swift */; };
+		180E7C691E36068B0085BEFD /* ATAboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 180E7C681E36068B0085BEFD /* ATAboutView.swift */; };
+		1844ED0D1DEBF59400C7912D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844ED0C1DEBF59400C7912D /* AppDelegate.swift */; };
+		1844ED0F1DEBF59400C7912D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844ED0E1DEBF59400C7912D /* LoginViewController.swift */; };
+		1844ED121DEBF59400C7912D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844ED101DEBF59400C7912D /* Main.storyboard */; };
+		1844ED141DEBF59400C7912D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1844ED131DEBF59400C7912D /* Assets.xcassets */; };
+		1844ED171DEBF59400C7912D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1844ED151DEBF59400C7912D /* LaunchScreen.storyboard */; };
+		1844ED221DEBF59400C7912D /* SamsungARTIKTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844ED211DEBF59400C7912D /* SamsungARTIKTests.swift */; };
+		1844ED2D1DEBF59400C7912D /* SamsungARTIKUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1844ED2C1DEBF59400C7912D /* SamsungARTIKUITests.swift */; };
+		1872ADD11DFEAEBA0097CB70 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1872ADD31DFEAEBA0097CB70 /* Localizable.strings */; };
+		1872ADD61E02749C0097CB70 /* TitlesTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872ADD51E02749C0097CB70 /* TitlesTextField.swift */; };
+		1872ADD81E027B070097CB70 /* CustomTopAndBottomBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872ADD71E027B070097CB70 /* CustomTopAndBottomBar.swift */; };
+		1872ADDE1E0978AC0097CB70 /* TextFieldValidator.m in Sources */ = {isa = PBXBuildFile; fileRef = 1872ADDD1E0978AC0097CB70 /* TextFieldValidator.m */; };
+		1872ADE11E0A4A2A0097CB70 /* ATInformationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1872ADE01E0A4A2A0097CB70 /* ATInformationAlert.swift */; };
+		188ABEF51DEF1B7A00723269 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABEF31DEF1B7A00723269 /* MenuTableViewCell.swift */; };
+		188ABEF61DEF1B7A00723269 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188ABEF41DEF1B7A00723269 /* MenuTableViewCell.xib */; };
+		188ABEF81DF01EA600723269 /* PopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABEF71DF01EA600723269 /* PopOverView.swift */; };
+		188ABEFC1DF02D8500723269 /* popOverTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABEFA1DF02D8500723269 /* popOverTableViewCell.swift */; };
+		188ABEFD1DF02D8500723269 /* popOverTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188ABEFB1DF02D8500723269 /* popOverTableViewCell.xib */; };
+		188ABEFF1DF1432F00723269 /* QRCodeScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABEFE1DF1432F00723269 /* QRCodeScannerViewController.swift */; };
+		188ABF011DF1503600723269 /* ManualInputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABF001DF1503600723269 /* ManualInputViewController.swift */; };
+		188ABF031DF193FA00723269 /* ArtikModuleIdentifiedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABF021DF193FA00723269 /* ArtikModuleIdentifiedViewController.swift */; };
+		188ABF061DF1942D00723269 /* ATUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188ABF041DF1942D00723269 /* ATUtilities.swift */; };
+		189B9CBB1DEED312008F4068 /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B9CBA1DEED312008F4068 /* MenuView.swift */; };
+		189B9CC01DEEE4B7008F4068 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 189B9CBF1DEEE4B7008F4068 /* Constants.swift */; };
+		18BA044F1DF6EFC300F4E529 /* BluetoothPairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA044E1DF6EFC300F4E529 /* BluetoothPairingViewController.swift */; };
+		18BA04541DF7ED8200F4E529 /* RegisteredModuleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18BA04531DF7ED8200F4E529 /* RegisteredModuleViewController.swift */; };
+		18C23DE51DF6C12F00B7D4AC /* WifiNetworkViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C23DE41DF6C12F00B7D4AC /* WifiNetworkViewController.swift */; };
+		18C5F0C21DED753300CCEE25 /* CustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0BE1DED753300CCEE25 /* CustomButton.swift */; };
+		18C5F0C31DED753300CCEE25 /* CustomLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0BF1DED753300CCEE25 /* CustomLabel.swift */; };
+		18C5F0C41DED753300CCEE25 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0C01DED753300CCEE25 /* CustomTextField.swift */; };
+		18C5F0CA1DED761100CCEE25 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0C91DED761100CCEE25 /* Toast.swift */; };
+		18C5F0CD1DED77C000CCEE25 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0CC1DED77C000CCEE25 /* RegistrationViewController.swift */; };
+		18C5F0D11DED829300CCEE25 /* DashBoardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0D01DED829300CCEE25 /* DashBoardViewController.swift */; };
+		18C5F0D41DED875000CCEE25 /* RegisteredBoardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18C5F0D21DED875000CCEE25 /* RegisteredBoardsTableViewCell.swift */; };
+		18C5F0D51DED875000CCEE25 /* RegisteredBoardsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18C5F0D31DED875000CCEE25 /* RegisteredBoardsTableViewCell.xib */; };
+		18D3AA0B1DF6CAA7001B5804 /* WifiNetworkTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3AA091DF6CAA7001B5804 /* WifiNetworkTableViewCell.swift */; };
+		18D3AA0C1DF6CAA7001B5804 /* WifiNetworkTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D3AA0A1DF6CAA7001B5804 /* WifiNetworkTableViewCell.xib */; };
+		18D3AA0F1DF6D3B0001B5804 /* WifiPasswordPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D3AA0E1DF6D3B0001B5804 /* WifiPasswordPopOverView.swift */; };
+		4405C85E1DFAB691004A6DC9 /* ATDatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405C85C1DFAB691004A6DC9 /* ATDatabaseManager.swift */; };
+		4405C85F1DFAB691004A6DC9 /* ATCoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4405C85D1DFAB691004A6DC9 /* ATCoreDataStack.swift */; };
+		4405C8621DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4405C8601DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodeld */; };
+		443E932C1E0005C500237428 /* ATReachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 443E932B1E0005C500237428 /* ATReachability.swift */; };
+		44958F941E094AE700FBD9B8 /* BLEManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44958F931E094AE700FBD9B8 /* BLEManager.swift */; };
+		44C0C6881E1A36A300F79631 /* Artik0OnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0C6871E1A36A300F79631 /* Artik0OnboardingService.swift */; };
+		44C0C68A1E1A946A00F79631 /* LinkModulesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0C6891E1A946A00F79631 /* LinkModulesListViewController.swift */; };
+		44C0F9781E0AB397000645C9 /* WifiOnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C0F9771E0AB397000645C9 /* WifiOnboardingService.swift */; };
+		44CAFEFF1E0257700068048C /* ATAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAFEFE1E0257700068048C /* ATAlertView.swift */; };
+		44CAFF051E02A76B0068048C /* ATConfirmationAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44CAFF041E02A76B0068048C /* ATConfirmationAlert.swift */; };
+		9F1732281E3B8C60007C906B /* MDNSBrowser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F1732271E3B8C60007C906B /* MDNSBrowser.swift */; };
+		9F3533E11E88835C001AD67F /* SoftAPOnboardingService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3533E01E88835C001AD67F /* SoftAPOnboardingService.swift */; };
+		9F3533E51E88FFFA001AD67F /* SoftAPViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F3533E41E88FFFA001AD67F /* SoftAPViewController.swift */; };
+		9F384C971E72EA34009E161C /* DeviceActivitySegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F384C961E72EA34009E161C /* DeviceActivitySegmentViewController.swift */; };
+		9F7706D61E78401000554D52 /* FieldsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7706D41E78401000554D52 /* FieldsTableViewCell.swift */; };
+		9F7706D71E78401000554D52 /* FieldsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F7706D51E78401000554D52 /* FieldsTableViewCell.xib */; };
+		9FB898FA1E77519700F5D79C /* ActionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FB898F81E77519700F5D79C /* ActionsTableViewCell.swift */; };
+		9FB898FB1E77519700F5D79C /* ActionsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9FB898F91E77519700F5D79C /* ActionsTableViewCell.xib */; };
+		9FBE63D21E801549008BC848 /* ActionParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FBE63D11E801549008BC848 /* ActionParameters.swift */; };
+		9FE71B751E719BC600E2B4D5 /* DeviceActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE71B741E719BC600E2B4D5 /* DeviceActivityViewController.swift */; };
+		9FE71B771E71B3F300E2B4D5 /* ActionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE71B761E71B3F300E2B4D5 /* ActionsViewController.swift */; };
+		9FE71B791E71B40100E2B4D5 /* FieldsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE71B781E71B40100E2B4D5 /* FieldsViewController.swift */; };
+		9FE71B7B1E71B41100E2B4D5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE71B7A1E71B41100E2B4D5 /* MessagesViewController.swift */; };
+		A9431BDD1EBE62FA00CCA2CC /* ZipKeyProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9431BDC1EBE62FA00CCA2CC /* ZipKeyProfileController.swift */; };
+		A9D488811EB987E700226E00 /* CirrentSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D488801EB987E700226E00 /* CirrentSDK.framework */; };
+		A9D488821EB987E700226E00 /* CirrentSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = A9D488801EB987E700226E00 /* CirrentSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		A9D488861EBA42E700226E00 /* SampleCloudService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D488851EBA42E700226E00 /* SampleCloudService.swift */; };
+		A9D488881EBA7A0D00226E00 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D488871EBA7A0D00226E00 /* ProgressView.swift */; };
+		A9D4888B1EBA806F00226E00 /* ZipKeyFailedController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4888A1EBA806F00226E00 /* ZipKeyFailedController.swift */; };
+		A9D4888D1EBABCC200226E00 /* ProviderConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4888C1EBABCC100226E00 /* ProviderConnectController.swift */; };
+		A9D4888F1EBABCDB00226E00 /* PrivateNetworkConnectController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D4888E1EBABCDB00226E00 /* PrivateNetworkConnectController.swift */; };
+		A9D488911EBADAE700226E00 /* PrivateNetworkPopOverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D488901EBADAE700226E00 /* PrivateNetworkPopOverView.swift */; };
+		A9D488931EBB8C5E00226E00 /* RegisteredDeviceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D488921EBB8C5E00226E00 /* RegisteredDeviceViewController.swift */; };
+		C0B0BD997F12CB72929F84A9 /* Pods_SamsungARTIKUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D75D31F80C53D9B2D2F2B98C /* Pods_SamsungARTIKUITests.framework */; };
+		F64F5BAE8DEF2F32F6CBE3C3 /* Pods_SamsungARTIK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82A48198ABC9DDDC57B92891 /* Pods_SamsungARTIK.framework */; };
+		FF62AF483B9B9198126CB493 /* Pods_SamsungARTIKTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BD681F3A68F65ED6240A32D /* Pods_SamsungARTIKTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1844ED1E1DEBF59400C7912D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1844ED011DEBF59400C7912D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1844ED081DEBF59400C7912D;
+			remoteInfo = SamsungARTIK;
+		};
+		1844ED291DEBF59400C7912D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1844ED011DEBF59400C7912D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1844ED081DEBF59400C7912D;
+			remoteInfo = SamsungARTIK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A9D488831EB987E700226E00 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				A9D488821EB987E700226E00 /* CirrentSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		180E7C641E30939F0085BEFD /* DropDownViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DropDownViewController.swift; path = ../DropDownViewController.swift; sourceTree = "<group>"; };
+		180E7C661E35CF150085BEFD /* UserProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = UserProfileViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		180E7C681E36068B0085BEFD /* ATAboutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATAboutView.swift; sourceTree = "<group>"; };
+		1844ED091DEBF59400C7912D /* SamsungARTIK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsungARTIK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1844ED0C1DEBF59400C7912D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1844ED0E1DEBF59400C7912D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		1844ED111DEBF59400C7912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1844ED131DEBF59400C7912D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1844ED161DEBF59400C7912D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1844ED181DEBF59400C7912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1844ED1D1DEBF59400C7912D /* SamsungARTIKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsungARTIKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1844ED211DEBF59400C7912D /* SamsungARTIKTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungARTIKTests.swift; sourceTree = "<group>"; };
+		1844ED231DEBF59400C7912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1844ED281DEBF59400C7912D /* SamsungARTIKUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsungARTIKUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1844ED2C1DEBF59400C7912D /* SamsungARTIKUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsungARTIKUITests.swift; sourceTree = "<group>"; };
+		1844ED2E1DEBF59400C7912D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1872ADD21DFEAEBA0097CB70 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		1872ADD51E02749C0097CB70 /* TitlesTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TitlesTextField.swift; sourceTree = "<group>"; };
+		1872ADD71E027B070097CB70 /* CustomTopAndBottomBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTopAndBottomBar.swift; sourceTree = "<group>"; };
+		1872ADDB1E0978AB0097CB70 /* SamsungARTIK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SamsungARTIK-Bridging-Header.h"; sourceTree = "<group>"; };
+		1872ADDC1E0978AC0097CB70 /* TextFieldValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextFieldValidator.h; sourceTree = "<group>"; };
+		1872ADDD1E0978AC0097CB70 /* TextFieldValidator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextFieldValidator.m; sourceTree = "<group>"; };
+		1872ADE01E0A4A2A0097CB70 /* ATInformationAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATInformationAlert.swift; sourceTree = "<group>"; };
+		188ABEF31DEF1B7A00723269 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		188ABEF41DEF1B7A00723269 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		188ABEF71DF01EA600723269 /* PopOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopOverView.swift; sourceTree = "<group>"; };
+		188ABEFA1DF02D8500723269 /* popOverTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = popOverTableViewCell.swift; sourceTree = "<group>"; };
+		188ABEFB1DF02D8500723269 /* popOverTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = popOverTableViewCell.xib; sourceTree = "<group>"; };
+		188ABEFE1DF1432F00723269 /* QRCodeScannerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QRCodeScannerViewController.swift; sourceTree = "<group>"; };
+		188ABF001DF1503600723269 /* ManualInputViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManualInputViewController.swift; sourceTree = "<group>"; };
+		188ABF021DF193FA00723269 /* ArtikModuleIdentifiedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = ArtikModuleIdentifiedViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		188ABF041DF1942D00723269 /* ATUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATUtilities.swift; sourceTree = "<group>"; };
+		189B9CBA1DEED312008F4068 /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		189B9CBF1DEEE4B7008F4068 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		18BA044E1DF6EFC300F4E529 /* BluetoothPairingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BluetoothPairingViewController.swift; sourceTree = "<group>"; };
+		18BA04531DF7ED8200F4E529 /* RegisteredModuleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = RegisteredModuleViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		18C23DE41DF6C12F00B7D4AC /* WifiNetworkViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = WifiNetworkViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		18C5F0BE1DED753300CCEE25 /* CustomButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomButton.swift; sourceTree = "<group>"; };
+		18C5F0BF1DED753300CCEE25 /* CustomLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomLabel.swift; sourceTree = "<group>"; };
+		18C5F0C01DED753300CCEE25 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		18C5F0C91DED761100CCEE25 /* Toast.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Toast.swift; sourceTree = "<group>"; };
+		18C5F0CC1DED77C000CCEE25 /* RegistrationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		18C5F0D01DED829300CCEE25 /* DashBoardViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = DashBoardViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		18C5F0D21DED875000CCEE25 /* RegisteredBoardsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredBoardsTableViewCell.swift; sourceTree = "<group>"; };
+		18C5F0D31DED875000CCEE25 /* RegisteredBoardsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegisteredBoardsTableViewCell.xib; sourceTree = "<group>"; };
+		18D3AA091DF6CAA7001B5804 /* WifiNetworkTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiNetworkTableViewCell.swift; sourceTree = "<group>"; };
+		18D3AA0A1DF6CAA7001B5804 /* WifiNetworkTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WifiNetworkTableViewCell.xib; sourceTree = "<group>"; };
+		18D3AA0E1DF6D3B0001B5804 /* WifiPasswordPopOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiPasswordPopOverView.swift; sourceTree = "<group>"; };
+		4405C85C1DFAB691004A6DC9 /* ATDatabaseManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATDatabaseManager.swift; sourceTree = "<group>"; };
+		4405C85D1DFAB691004A6DC9 /* ATCoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATCoreDataStack.swift; sourceTree = "<group>"; };
+		4405C8611DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ArtikDataModel.xcdatamodel; sourceTree = "<group>"; };
+		443E932B1E0005C500237428 /* ATReachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATReachability.swift; sourceTree = "<group>"; };
+		44958F931E094AE700FBD9B8 /* BLEManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLEManager.swift; sourceTree = "<group>"; };
+		44C0C6871E1A36A300F79631 /* Artik0OnboardingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = Artik0OnboardingService.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		44C0C6891E1A946A00F79631 /* LinkModulesListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; lineEnding = 0; path = LinkModulesListViewController.swift; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		44C0F9771E0AB397000645C9 /* WifiOnboardingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WifiOnboardingService.swift; sourceTree = "<group>"; };
+		44CAFEFE1E0257700068048C /* ATAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATAlertView.swift; sourceTree = "<group>"; };
+		44CAFF041E02A76B0068048C /* ATConfirmationAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ATConfirmationAlert.swift; sourceTree = "<group>"; };
+		52A80638D0964D48D9DC3636 /* Pods-SamsungARTIKUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIKUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIKUITests/Pods-SamsungARTIKUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		63B2C2411E78480683B6C74F /* Pods-SamsungARTIKUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIKUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIKUITests/Pods-SamsungARTIKUITests.release.xcconfig"; sourceTree = "<group>"; };
+		68E07840F85FE18F1514144B /* Pods-SamsungARTIKTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIKTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIKTests/Pods-SamsungARTIKTests.release.xcconfig"; sourceTree = "<group>"; };
+		6BD681F3A68F65ED6240A32D /* Pods_SamsungARTIKTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamsungARTIKTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82A48198ABC9DDDC57B92891 /* Pods_SamsungARTIK.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamsungARTIK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B51D05DDB5582975DC36CEE /* Pods-SamsungARTIK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIK.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIK/Pods-SamsungARTIK.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1732271E3B8C60007C906B /* MDNSBrowser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MDNSBrowser.swift; sourceTree = "<group>"; };
+		9F3533E01E88835C001AD67F /* SoftAPOnboardingService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftAPOnboardingService.swift; sourceTree = "<group>"; };
+		9F3533E41E88FFFA001AD67F /* SoftAPViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoftAPViewController.swift; sourceTree = "<group>"; };
+		9F384C961E72EA34009E161C /* DeviceActivitySegmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceActivitySegmentViewController.swift; sourceTree = "<group>"; };
+		9F7706D41E78401000554D52 /* FieldsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsTableViewCell.swift; sourceTree = "<group>"; };
+		9F7706D51E78401000554D52 /* FieldsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FieldsTableViewCell.xib; sourceTree = "<group>"; };
+		9FA78FAB1E5274C800E9306D /* SamsungARTIK.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SamsungARTIK.entitlements; sourceTree = "<group>"; };
+		9FB898F81E77519700F5D79C /* ActionsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsTableViewCell.swift; sourceTree = "<group>"; };
+		9FB898F91E77519700F5D79C /* ActionsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActionsTableViewCell.xib; sourceTree = "<group>"; };
+		9FBE63D11E801549008BC848 /* ActionParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionParameters.swift; sourceTree = "<group>"; };
+		9FE71B741E719BC600E2B4D5 /* DeviceActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeviceActivityViewController.swift; sourceTree = "<group>"; };
+		9FE71B761E71B3F300E2B4D5 /* ActionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionsViewController.swift; sourceTree = "<group>"; };
+		9FE71B781E71B40100E2B4D5 /* FieldsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FieldsViewController.swift; sourceTree = "<group>"; };
+		9FE71B7A1E71B41100E2B4D5 /* MessagesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		A9431BDC1EBE62FA00CCA2CC /* ZipKeyProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipKeyProfileController.swift; sourceTree = "<group>"; };
+		A9D488801EB987E700226E00 /* CirrentSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = CirrentSDK.framework; sourceTree = "<group>"; };
+		A9D488851EBA42E700226E00 /* SampleCloudService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleCloudService.swift; sourceTree = "<group>"; };
+		A9D488871EBA7A0D00226E00 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		A9D4888A1EBA806F00226E00 /* ZipKeyFailedController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZipKeyFailedController.swift; sourceTree = "<group>"; };
+		A9D4888C1EBABCC100226E00 /* ProviderConnectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderConnectController.swift; sourceTree = "<group>"; };
+		A9D4888E1EBABCDB00226E00 /* PrivateNetworkConnectController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateNetworkConnectController.swift; sourceTree = "<group>"; };
+		A9D488901EBADAE700226E00 /* PrivateNetworkPopOverView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrivateNetworkPopOverView.swift; sourceTree = "<group>"; };
+		A9D488921EBB8C5E00226E00 /* RegisteredDeviceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisteredDeviceViewController.swift; sourceTree = "<group>"; };
+		B21E2C09CF9CEEC9F6F73AB1 /* Pods-SamsungARTIKTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIKTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIKTests/Pods-SamsungARTIKTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D75D31F80C53D9B2D2F2B98C /* Pods_SamsungARTIKUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SamsungARTIKUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC18F21F8663D5897A02D7B3 /* Pods-SamsungARTIK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SamsungARTIK.release.xcconfig"; path = "Pods/Target Support Files/Pods-SamsungARTIK/Pods-SamsungARTIK.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1844ED061DEBF59400C7912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F64F5BAE8DEF2F32F6CBE3C3 /* Pods_SamsungARTIK.framework in Frameworks */,
+				A9D488811EB987E700226E00 /* CirrentSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED1A1DEBF59400C7912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF62AF483B9B9198126CB493 /* Pods_SamsungARTIKTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED251DEBF59400C7912D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0B0BD997F12CB72929F84A9 /* Pods_SamsungARTIKUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		114B1C42167F88B47D6ABD30 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B51D05DDB5582975DC36CEE /* Pods-SamsungARTIK.debug.xcconfig */,
+				DC18F21F8663D5897A02D7B3 /* Pods-SamsungARTIK.release.xcconfig */,
+				B21E2C09CF9CEEC9F6F73AB1 /* Pods-SamsungARTIKTests.debug.xcconfig */,
+				68E07840F85FE18F1514144B /* Pods-SamsungARTIKTests.release.xcconfig */,
+				52A80638D0964D48D9DC3636 /* Pods-SamsungARTIKUITests.debug.xcconfig */,
+				63B2C2411E78480683B6C74F /* Pods-SamsungARTIKUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		180E7C6A1E3606970085BEFD /* About View */ = {
+			isa = PBXGroup;
+			children = (
+				180E7C681E36068B0085BEFD /* ATAboutView.swift */,
+			);
+			name = "About View";
+			sourceTree = "<group>";
+		};
+		1844ED001DEBF59400C7912D = {
+			isa = PBXGroup;
+			children = (
+				A9D488801EB987E700226E00 /* CirrentSDK.framework */,
+				1844ED0B1DEBF59400C7912D /* SamsungARTIK */,
+				1844ED201DEBF59400C7912D /* SamsungARTIKTests */,
+				1844ED2B1DEBF59400C7912D /* SamsungARTIKUITests */,
+				1844ED0A1DEBF59400C7912D /* Products */,
+				114B1C42167F88B47D6ABD30 /* Pods */,
+				E745A3F6C038813D5DB8E69B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1844ED0A1DEBF59400C7912D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1844ED091DEBF59400C7912D /* SamsungARTIK.app */,
+				1844ED1D1DEBF59400C7912D /* SamsungARTIKTests.xctest */,
+				1844ED281DEBF59400C7912D /* SamsungARTIKUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1844ED0B1DEBF59400C7912D /* SamsungARTIK */ = {
+			isa = PBXGroup;
+			children = (
+				A9D488891EBA804F00226E00 /* ZipKey */,
+				A9D488841EBA42E700226E00 /* Cirrent */,
+				9FE71B7C1E71B44800E2B4D5 /* DeviceControl */,
+				9FA78FAB1E5274C800E9306D /* SamsungARTIK.entitlements */,
+				1844ED0C1DEBF59400C7912D /* AppDelegate.swift */,
+				1844ED0E1DEBF59400C7912D /* LoginViewController.swift */,
+				18C5F0CC1DED77C000CCEE25 /* RegistrationViewController.swift */,
+				18C5F0D01DED829300CCEE25 /* DashBoardViewController.swift */,
+				180E7C641E30939F0085BEFD /* DropDownViewController.swift */,
+				180E7C661E35CF150085BEFD /* UserProfileViewController.swift */,
+				188ABEFE1DF1432F00723269 /* QRCodeScannerViewController.swift */,
+				188ABF001DF1503600723269 /* ManualInputViewController.swift */,
+				188ABF021DF193FA00723269 /* ArtikModuleIdentifiedViewController.swift */,
+				18C23DE41DF6C12F00B7D4AC /* WifiNetworkViewController.swift */,
+				18BA044E1DF6EFC300F4E529 /* BluetoothPairingViewController.swift */,
+				44C0C6891E1A946A00F79631 /* LinkModulesListViewController.swift */,
+				18BA04531DF7ED8200F4E529 /* RegisteredModuleViewController.swift */,
+				9F3533DF1E8882D6001AD67F /* SoftAPOnboarding */,
+				44C0C6861E1A368A00F79631 /* Artik0OnboardingService */,
+				44C0F9761E0AB37C000645C9 /* WifiOnboardingService */,
+				44958F921E094AAC00FBD9B8 /* BLEManager */,
+				18C5F0CB1DED761500CCEE25 /* Toast */,
+				4405C8631DFAB7C9004A6DC9 /* DatabaseClasses */,
+				189B9CBE1DEEE2CA008F4068 /* Utilities */,
+				18C5F0C51DED753F00CCEE25 /* CustomClasses */,
+				1844ED101DEBF59400C7912D /* Main.storyboard */,
+				1844ED131DEBF59400C7912D /* Assets.xcassets */,
+				1844ED151DEBF59400C7912D /* LaunchScreen.storyboard */,
+				1872ADD31DFEAEBA0097CB70 /* Localizable.strings */,
+				1844ED181DEBF59400C7912D /* Info.plist */,
+			);
+			path = SamsungARTIK;
+			sourceTree = "<group>";
+		};
+		1844ED201DEBF59400C7912D /* SamsungARTIKTests */ = {
+			isa = PBXGroup;
+			children = (
+				1844ED211DEBF59400C7912D /* SamsungARTIKTests.swift */,
+				1844ED231DEBF59400C7912D /* Info.plist */,
+			);
+			path = SamsungARTIKTests;
+			sourceTree = "<group>";
+		};
+		1844ED2B1DEBF59400C7912D /* SamsungARTIKUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1844ED2C1DEBF59400C7912D /* SamsungARTIKUITests.swift */,
+				1844ED2E1DEBF59400C7912D /* Info.plist */,
+			);
+			path = SamsungARTIKUITests;
+			sourceTree = "<group>";
+		};
+		1872ADDA1E0978870097CB70 /* TextFieldValidator */ = {
+			isa = PBXGroup;
+			children = (
+				1872ADDC1E0978AC0097CB70 /* TextFieldValidator.h */,
+				1872ADDD1E0978AC0097CB70 /* TextFieldValidator.m */,
+				1872ADDB1E0978AB0097CB70 /* SamsungARTIK-Bridging-Header.h */,
+			);
+			name = TextFieldValidator;
+			sourceTree = "<group>";
+		};
+		1872ADDF1E0A49FF0097CB70 /* ATInformation */ = {
+			isa = PBXGroup;
+			children = (
+				1872ADE01E0A4A2A0097CB70 /* ATInformationAlert.swift */,
+			);
+			name = ATInformation;
+			sourceTree = "<group>";
+		};
+		188ABEF11DEF197000723269 /* RegisteredBoardsTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18C5F0D21DED875000CCEE25 /* RegisteredBoardsTableViewCell.swift */,
+				18C5F0D31DED875000CCEE25 /* RegisteredBoardsTableViewCell.xib */,
+			);
+			name = RegisteredBoardsTableViewCell;
+			sourceTree = "<group>";
+		};
+		188ABEF21DEF1B4000723269 /* MenuTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				188ABEF31DEF1B7A00723269 /* MenuTableViewCell.swift */,
+				188ABEF41DEF1B7A00723269 /* MenuTableViewCell.xib */,
+			);
+			name = MenuTableViewCell;
+			sourceTree = "<group>";
+		};
+		188ABEF91DF01EAE00723269 /* PopOver */ = {
+			isa = PBXGroup;
+			children = (
+				188ABEF71DF01EA600723269 /* PopOverView.swift */,
+				188ABEFA1DF02D8500723269 /* popOverTableViewCell.swift */,
+				188ABEFB1DF02D8500723269 /* popOverTableViewCell.xib */,
+			);
+			name = PopOver;
+			sourceTree = "<group>";
+		};
+		189B9CB91DEED033008F4068 /* MenuView */ = {
+			isa = PBXGroup;
+			children = (
+				189B9CBA1DEED312008F4068 /* MenuView.swift */,
+				188ABEF21DEF1B4000723269 /* MenuTableViewCell */,
+			);
+			name = MenuView;
+			sourceTree = "<group>";
+		};
+		189B9CBE1DEEE2CA008F4068 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				188ABF041DF1942D00723269 /* ATUtilities.swift */,
+				189B9CBF1DEEE4B7008F4068 /* Constants.swift */,
+				9F1732271E3B8C60007C906B /* MDNSBrowser.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		18C5F0C51DED753F00CCEE25 /* CustomClasses */ = {
+			isa = PBXGroup;
+			children = (
+				A9D488871EBA7A0D00226E00 /* ProgressView.swift */,
+				180E7C6A1E3606970085BEFD /* About View */,
+				1872ADDA1E0978870097CB70 /* TextFieldValidator */,
+				44CAFF031E02A7550068048C /* ATConfirmationAlert */,
+				1872ADDF1E0A49FF0097CB70 /* ATInformation */,
+				44CAFEFD1E0256F50068048C /* ATAlertView */,
+				188ABEF91DF01EAE00723269 /* PopOver */,
+				188ABEF11DEF197000723269 /* RegisteredBoardsTableViewCell */,
+				189B9CB91DEED033008F4068 /* MenuView */,
+				18D3AA0D1DF6CAAC001B5804 /* Wifi Network TableViewCell */,
+				18D3AA0E1DF6D3B0001B5804 /* WifiPasswordPopOverView.swift */,
+				1872ADD71E027B070097CB70 /* CustomTopAndBottomBar.swift */,
+				1872ADD51E02749C0097CB70 /* TitlesTextField.swift */,
+				18C5F0BE1DED753300CCEE25 /* CustomButton.swift */,
+				18C5F0BF1DED753300CCEE25 /* CustomLabel.swift */,
+				18C5F0C01DED753300CCEE25 /* CustomTextField.swift */,
+			);
+			name = CustomClasses;
+			sourceTree = "<group>";
+		};
+		18C5F0CB1DED761500CCEE25 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				443E932A1E00059F00237428 /* Reachability */,
+				18C5F0C91DED761100CCEE25 /* Toast.swift */,
+			);
+			name = Toast;
+			sourceTree = "<group>";
+		};
+		18D3AA0D1DF6CAAC001B5804 /* Wifi Network TableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18D3AA091DF6CAA7001B5804 /* WifiNetworkTableViewCell.swift */,
+				18D3AA0A1DF6CAA7001B5804 /* WifiNetworkTableViewCell.xib */,
+			);
+			name = "Wifi Network TableViewCell";
+			sourceTree = "<group>";
+		};
+		4405C8631DFAB7C9004A6DC9 /* DatabaseClasses */ = {
+			isa = PBXGroup;
+			children = (
+				4405C85C1DFAB691004A6DC9 /* ATDatabaseManager.swift */,
+				4405C8601DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodeld */,
+				4405C85D1DFAB691004A6DC9 /* ATCoreDataStack.swift */,
+			);
+			name = DatabaseClasses;
+			sourceTree = "<group>";
+		};
+		443E932A1E00059F00237428 /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				443E932B1E0005C500237428 /* ATReachability.swift */,
+			);
+			name = Reachability;
+			sourceTree = "<group>";
+		};
+		44958F921E094AAC00FBD9B8 /* BLEManager */ = {
+			isa = PBXGroup;
+			children = (
+				44958F931E094AE700FBD9B8 /* BLEManager.swift */,
+			);
+			name = BLEManager;
+			sourceTree = "<group>";
+		};
+		44C0C6861E1A368A00F79631 /* Artik0OnboardingService */ = {
+			isa = PBXGroup;
+			children = (
+				44C0C6871E1A36A300F79631 /* Artik0OnboardingService.swift */,
+			);
+			name = Artik0OnboardingService;
+			sourceTree = "<group>";
+		};
+		44C0F9761E0AB37C000645C9 /* WifiOnboardingService */ = {
+			isa = PBXGroup;
+			children = (
+				44C0F9771E0AB397000645C9 /* WifiOnboardingService.swift */,
+			);
+			name = WifiOnboardingService;
+			sourceTree = "<group>";
+		};
+		44CAFEFD1E0256F50068048C /* ATAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				44CAFEFE1E0257700068048C /* ATAlertView.swift */,
+			);
+			name = ATAlertView;
+			sourceTree = "<group>";
+		};
+		44CAFF031E02A7550068048C /* ATConfirmationAlert */ = {
+			isa = PBXGroup;
+			children = (
+				44CAFF041E02A76B0068048C /* ATConfirmationAlert.swift */,
+			);
+			name = ATConfirmationAlert;
+			sourceTree = "<group>";
+		};
+		9F3533DF1E8882D6001AD67F /* SoftAPOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				9F3533E01E88835C001AD67F /* SoftAPOnboardingService.swift */,
+				9F3533E41E88FFFA001AD67F /* SoftAPViewController.swift */,
+			);
+			name = SoftAPOnboarding;
+			sourceTree = "<group>";
+		};
+		9FE71B7C1E71B44800E2B4D5 /* DeviceControl */ = {
+			isa = PBXGroup;
+			children = (
+				9FE71B741E719BC600E2B4D5 /* DeviceActivityViewController.swift */,
+				9FE71B7A1E71B41100E2B4D5 /* MessagesViewController.swift */,
+				9FE71B781E71B40100E2B4D5 /* FieldsViewController.swift */,
+				9FE71B761E71B3F300E2B4D5 /* ActionsViewController.swift */,
+				9F384C961E72EA34009E161C /* DeviceActivitySegmentViewController.swift */,
+				9FB898F81E77519700F5D79C /* ActionsTableViewCell.swift */,
+				9FB898F91E77519700F5D79C /* ActionsTableViewCell.xib */,
+				9F7706D41E78401000554D52 /* FieldsTableViewCell.swift */,
+				9F7706D51E78401000554D52 /* FieldsTableViewCell.xib */,
+				9FBE63D11E801549008BC848 /* ActionParameters.swift */,
+			);
+			name = DeviceControl;
+			sourceTree = "<group>";
+		};
+		A9D488841EBA42E700226E00 /* Cirrent */ = {
+			isa = PBXGroup;
+			children = (
+				A9D488851EBA42E700226E00 /* SampleCloudService.swift */,
+			);
+			path = Cirrent;
+			sourceTree = "<group>";
+		};
+		A9D488891EBA804F00226E00 /* ZipKey */ = {
+			isa = PBXGroup;
+			children = (
+				A9D4888A1EBA806F00226E00 /* ZipKeyFailedController.swift */,
+				A9D4888C1EBABCC100226E00 /* ProviderConnectController.swift */,
+				A9D4888E1EBABCDB00226E00 /* PrivateNetworkConnectController.swift */,
+				A9D488901EBADAE700226E00 /* PrivateNetworkPopOverView.swift */,
+				A9D488921EBB8C5E00226E00 /* RegisteredDeviceViewController.swift */,
+				A9431BDC1EBE62FA00CCA2CC /* ZipKeyProfileController.swift */,
+			);
+			name = ZipKey;
+			sourceTree = "<group>";
+		};
+		E745A3F6C038813D5DB8E69B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82A48198ABC9DDDC57B92891 /* Pods_SamsungARTIK.framework */,
+				6BD681F3A68F65ED6240A32D /* Pods_SamsungARTIKTests.framework */,
+				D75D31F80C53D9B2D2F2B98C /* Pods_SamsungARTIKUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1844ED081DEBF59400C7912D /* SamsungARTIK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844ED311DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIK" */;
+			buildPhases = (
+				1D8AA3153C4D0148DDF8576F /* [CP] Check Pods Manifest.lock */,
+				1844ED051DEBF59400C7912D /* Sources */,
+				1844ED061DEBF59400C7912D /* Frameworks */,
+				1844ED071DEBF59400C7912D /* Resources */,
+				BF823131552A187F50FD1F32 /* [CP] Embed Pods Frameworks */,
+				24CA3B7671169811C2F9223C /* [CP] Copy Pods Resources */,
+				18A890741E1D1FA1008727B3 /* ShellScript */,
+				A9D488831EB987E700226E00 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamsungARTIK;
+			productName = SamsungARTIK;
+			productReference = 1844ED091DEBF59400C7912D /* SamsungARTIK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1844ED1C1DEBF59400C7912D /* SamsungARTIKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844ED341DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIKTests" */;
+			buildPhases = (
+				57FB734E411979A9B4C9BBC8 /* [CP] Check Pods Manifest.lock */,
+				1844ED191DEBF59400C7912D /* Sources */,
+				1844ED1A1DEBF59400C7912D /* Frameworks */,
+				1844ED1B1DEBF59400C7912D /* Resources */,
+				CEE1E5B4E7A7F5D92D210E77 /* [CP] Embed Pods Frameworks */,
+				A2E573CBE5F3F664F6423108 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1844ED1F1DEBF59400C7912D /* PBXTargetDependency */,
+			);
+			name = SamsungARTIKTests;
+			productName = SamsungARTIKTests;
+			productReference = 1844ED1D1DEBF59400C7912D /* SamsungARTIKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1844ED271DEBF59400C7912D /* SamsungARTIKUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1844ED371DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIKUITests" */;
+			buildPhases = (
+				736D5175F77E6B7631BE6598 /* [CP] Check Pods Manifest.lock */,
+				1844ED241DEBF59400C7912D /* Sources */,
+				1844ED251DEBF59400C7912D /* Frameworks */,
+				1844ED261DEBF59400C7912D /* Resources */,
+				DC35CA26C8A2B333005814EB /* [CP] Embed Pods Frameworks */,
+				CA3EC086ABE2E12D043FD1CC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1844ED2A1DEBF59400C7912D /* PBXTargetDependency */,
+			);
+			name = SamsungARTIKUITests;
+			productName = SamsungARTIKUITests;
+			productReference = 1844ED281DEBF59400C7912D /* SamsungARTIKUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1844ED011DEBF59400C7912D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Samsung Artik";
+				TargetAttributes = {
+					1844ED081DEBF59400C7912D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M29Q3CPGBW;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
+					};
+					1844ED1C1DEBF59400C7912D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V499N43SKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1844ED081DEBF59400C7912D;
+					};
+					1844ED271DEBF59400C7912D = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V499N43SKS;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1844ED081DEBF59400C7912D;
+					};
+				};
+			};
+			buildConfigurationList = 1844ED041DEBF59400C7912D /* Build configuration list for PBXProject "SamsungARTIK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1844ED001DEBF59400C7912D;
+			productRefGroup = 1844ED0A1DEBF59400C7912D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1844ED081DEBF59400C7912D /* SamsungARTIK */,
+				1844ED1C1DEBF59400C7912D /* SamsungARTIKTests */,
+				1844ED271DEBF59400C7912D /* SamsungARTIKUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1844ED071DEBF59400C7912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1844ED171DEBF59400C7912D /* LaunchScreen.storyboard in Resources */,
+				18D3AA0C1DF6CAA7001B5804 /* WifiNetworkTableViewCell.xib in Resources */,
+				9F7706D71E78401000554D52 /* FieldsTableViewCell.xib in Resources */,
+				1844ED141DEBF59400C7912D /* Assets.xcassets in Resources */,
+				18C5F0D51DED875000CCEE25 /* RegisteredBoardsTableViewCell.xib in Resources */,
+				9FB898FB1E77519700F5D79C /* ActionsTableViewCell.xib in Resources */,
+				188ABEFD1DF02D8500723269 /* popOverTableViewCell.xib in Resources */,
+				1872ADD11DFEAEBA0097CB70 /* Localizable.strings in Resources */,
+				188ABEF61DEF1B7A00723269 /* MenuTableViewCell.xib in Resources */,
+				1844ED121DEBF59400C7912D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED1B1DEBF59400C7912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED261DEBF59400C7912D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		18A890741E1D1FA1008727B3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Fabric/run\"  c4e46928c3ebb47558a00b55364445bdd3946595 8db23a1adf8d2c532d30aeaaea71254027719a61905f241afb8f1c5e9fb1dacb";
+		};
+		1D8AA3153C4D0148DDF8576F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		24CA3B7671169811C2F9223C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIK/Pods-SamsungARTIK-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57FB734E411979A9B4C9BBC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		736D5175F77E6B7631BE6598 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A2E573CBE5F3F664F6423108 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIKTests/Pods-SamsungARTIKTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF823131552A187F50FD1F32 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIK/Pods-SamsungARTIK-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA3EC086ABE2E12D043FD1CC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIKUITests/Pods-SamsungARTIKUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CEE1E5B4E7A7F5D92D210E77 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIKTests/Pods-SamsungARTIKTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DC35CA26C8A2B333005814EB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SamsungARTIKUITests/Pods-SamsungARTIKUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1844ED051DEBF59400C7912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C5F0D11DED829300CCEE25 /* DashBoardViewController.swift in Sources */,
+				18C5F0C21DED753300CCEE25 /* CustomButton.swift in Sources */,
+				188ABEF81DF01EA600723269 /* PopOverView.swift in Sources */,
+				4405C8621DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodeld in Sources */,
+				188ABF031DF193FA00723269 /* ArtikModuleIdentifiedViewController.swift in Sources */,
+				18C5F0C31DED753300CCEE25 /* CustomLabel.swift in Sources */,
+				9F1732281E3B8C60007C906B /* MDNSBrowser.swift in Sources */,
+				9FE71B791E71B40100E2B4D5 /* FieldsViewController.swift in Sources */,
+				18C5F0CD1DED77C000CCEE25 /* RegistrationViewController.swift in Sources */,
+				44C0C68A1E1A946A00F79631 /* LinkModulesListViewController.swift in Sources */,
+				18C5F0C41DED753300CCEE25 /* CustomTextField.swift in Sources */,
+				18BA044F1DF6EFC300F4E529 /* BluetoothPairingViewController.swift in Sources */,
+				A9D4888B1EBA806F00226E00 /* ZipKeyFailedController.swift in Sources */,
+				44CAFF051E02A76B0068048C /* ATConfirmationAlert.swift in Sources */,
+				A9D488861EBA42E700226E00 /* SampleCloudService.swift in Sources */,
+				18D3AA0B1DF6CAA7001B5804 /* WifiNetworkTableViewCell.swift in Sources */,
+				9FBE63D21E801549008BC848 /* ActionParameters.swift in Sources */,
+				A9431BDD1EBE62FA00CCA2CC /* ZipKeyProfileController.swift in Sources */,
+				18BA04541DF7ED8200F4E529 /* RegisteredModuleViewController.swift in Sources */,
+				44C0F9781E0AB397000645C9 /* WifiOnboardingService.swift in Sources */,
+				18C5F0D41DED875000CCEE25 /* RegisteredBoardsTableViewCell.swift in Sources */,
+				44CAFEFF1E0257700068048C /* ATAlertView.swift in Sources */,
+				44C0C6881E1A36A300F79631 /* Artik0OnboardingService.swift in Sources */,
+				189B9CBB1DEED312008F4068 /* MenuView.swift in Sources */,
+				188ABF011DF1503600723269 /* ManualInputViewController.swift in Sources */,
+				9F384C971E72EA34009E161C /* DeviceActivitySegmentViewController.swift in Sources */,
+				188ABEFF1DF1432F00723269 /* QRCodeScannerViewController.swift in Sources */,
+				188ABEFC1DF02D8500723269 /* popOverTableViewCell.swift in Sources */,
+				1872ADD81E027B070097CB70 /* CustomTopAndBottomBar.swift in Sources */,
+				1872ADDE1E0978AC0097CB70 /* TextFieldValidator.m in Sources */,
+				1844ED0F1DEBF59400C7912D /* LoginViewController.swift in Sources */,
+				180E7C691E36068B0085BEFD /* ATAboutView.swift in Sources */,
+				4405C85E1DFAB691004A6DC9 /* ATDatabaseManager.swift in Sources */,
+				188ABEF51DEF1B7A00723269 /* MenuTableViewCell.swift in Sources */,
+				1844ED0D1DEBF59400C7912D /* AppDelegate.swift in Sources */,
+				9FE71B7B1E71B41100E2B4D5 /* MessagesViewController.swift in Sources */,
+				4405C85F1DFAB691004A6DC9 /* ATCoreDataStack.swift in Sources */,
+				188ABF061DF1942D00723269 /* ATUtilities.swift in Sources */,
+				1872ADE11E0A4A2A0097CB70 /* ATInformationAlert.swift in Sources */,
+				44958F941E094AE700FBD9B8 /* BLEManager.swift in Sources */,
+				A9D488881EBA7A0D00226E00 /* ProgressView.swift in Sources */,
+				1872ADD61E02749C0097CB70 /* TitlesTextField.swift in Sources */,
+				A9D4888D1EBABCC200226E00 /* ProviderConnectController.swift in Sources */,
+				A9D488931EBB8C5E00226E00 /* RegisteredDeviceViewController.swift in Sources */,
+				18C5F0CA1DED761100CCEE25 /* Toast.swift in Sources */,
+				A9D4888F1EBABCDB00226E00 /* PrivateNetworkConnectController.swift in Sources */,
+				18D3AA0F1DF6D3B0001B5804 /* WifiPasswordPopOverView.swift in Sources */,
+				180E7C671E35CF160085BEFD /* UserProfileViewController.swift in Sources */,
+				9FB898FA1E77519700F5D79C /* ActionsTableViewCell.swift in Sources */,
+				9FE71B751E719BC600E2B4D5 /* DeviceActivityViewController.swift in Sources */,
+				9F3533E51E88FFFA001AD67F /* SoftAPViewController.swift in Sources */,
+				443E932C1E0005C500237428 /* ATReachability.swift in Sources */,
+				180E7C651E3093A00085BEFD /* DropDownViewController.swift in Sources */,
+				9F3533E11E88835C001AD67F /* SoftAPOnboardingService.swift in Sources */,
+				18C23DE51DF6C12F00B7D4AC /* WifiNetworkViewController.swift in Sources */,
+				9FE71B771E71B3F300E2B4D5 /* ActionsViewController.swift in Sources */,
+				A9D488911EBADAE700226E00 /* PrivateNetworkPopOverView.swift in Sources */,
+				9F7706D61E78401000554D52 /* FieldsTableViewCell.swift in Sources */,
+				189B9CC01DEEE4B7008F4068 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED191DEBF59400C7912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1844ED221DEBF59400C7912D /* SamsungARTIKTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1844ED241DEBF59400C7912D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1844ED2D1DEBF59400C7912D /* SamsungARTIKUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1844ED1F1DEBF59400C7912D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1844ED081DEBF59400C7912D /* SamsungARTIK */;
+			targetProxy = 1844ED1E1DEBF59400C7912D /* PBXContainerItemProxy */;
+		};
+		1844ED2A1DEBF59400C7912D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1844ED081DEBF59400C7912D /* SamsungARTIK */;
+			targetProxy = 1844ED291DEBF59400C7912D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1844ED101DEBF59400C7912D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1844ED111DEBF59400C7912D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1844ED151DEBF59400C7912D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1844ED161DEBF59400C7912D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1872ADD31DFEAEBA0097CB70 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1872ADD21DFEAEBA0097CB70 /* Base */,
+			);
+			name = Localizable.strings;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1844ED2F1DEBF59400C7912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				"DEBUG_ACTIVITY_MODE[sdk=iphonesimulator*]" = disable;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1844ED301DEBF59400C7912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_ACTIVITY_MODE = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = "$(SRCROOT)/**";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1844ED321DEBF59400C7912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B51D05DDB5582975DC36CEE /* Pods-SamsungARTIK.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SamsungARTIK/SamsungARTIK.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M29Q3CPGBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SamsungARTIK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.onboarding.ArtikCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SamsungARTIK/SamsungARTIK-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		1844ED331DEBF59400C7912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC18F21F8663D5897A02D7B3 /* Pods-SamsungARTIK.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = SamsungARTIK/SamsungARTIK.entitlements;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = M29Q3CPGBW;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = SamsungARTIK/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.onboarding.ArtikCloud;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SamsungARTIK/SamsungARTIK-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		1844ED351DEBF59400C7912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B21E2C09CF9CEEC9F6F73AB1 /* Pods-SamsungARTIKTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V499N43SKS;
+				INFOPLIST_FILE = SamsungARTIKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.artik.SamsungARTIKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsungARTIK.app/SamsungARTIK";
+			};
+			name = Debug;
+		};
+		1844ED361DEBF59400C7912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68E07840F85FE18F1514144B /* Pods-SamsungARTIKTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = V499N43SKS;
+				INFOPLIST_FILE = SamsungARTIKTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.artik.SamsungARTIKTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsungARTIK.app/SamsungARTIK";
+			};
+			name = Release;
+		};
+		1844ED381DEBF59400C7912D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52A80638D0964D48D9DC3636 /* Pods-SamsungARTIKUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V499N43SKS;
+				INFOPLIST_FILE = SamsungARTIKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.artik.SamsungARTIKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SamsungARTIK;
+			};
+			name = Debug;
+		};
+		1844ED391DEBF59400C7912D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63B2C2411E78480683B6C74F /* Pods-SamsungARTIKUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = V499N43SKS;
+				INFOPLIST_FILE = SamsungARTIKUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.samsung.artik.SamsungARTIKUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SamsungARTIK;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1844ED041DEBF59400C7912D /* Build configuration list for PBXProject "SamsungARTIK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844ED2F1DEBF59400C7912D /* Debug */,
+				1844ED301DEBF59400C7912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1844ED311DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844ED321DEBF59400C7912D /* Debug */,
+				1844ED331DEBF59400C7912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1844ED341DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844ED351DEBF59400C7912D /* Debug */,
+				1844ED361DEBF59400C7912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		1844ED371DEBF59400C7912D /* Build configuration list for PBXNativeTarget "SamsungARTIKUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1844ED381DEBF59400C7912D /* Debug */,
+				1844ED391DEBF59400C7912D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4405C8601DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4405C8611DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodel */,
+			);
+			currentVersion = 4405C8611DFAB6FD004A6DC9 /* ArtikDataModel.xcdatamodel */;
+			path = ArtikDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1844ED011DEBF59400C7912D /* Project object */;
+}

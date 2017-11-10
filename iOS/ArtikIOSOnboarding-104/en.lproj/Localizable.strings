@@ -1,0 +1,31 @@
+/* 
+  Localization.strings
+  SamsungARTIK
+
+  Created by alimi shalini on 12/12/16.
+  Copyright © 2016 alimi shalini. All rights reserved.
+*/
+"Key" = "Content";
+"Success" = "Success";
+"Password Confirmation" = "Confirmation password doesn't match the password";
+"Invalid Password" = "Invalid Password";
+"Invalid Email ID" = "Invalid Email ID";
+"Invalid Name" = "Invalid Name";
+"Unspecified Location" = "Unspecified Location";
+"ARTIK Module Identified" = "ARTIK Module Identified";
+"Device Paired" = "Device Paired";
+"Password" = "PASSWORD";
+"Connecting . . . . ." = "Connecting . . . . .";
+"Cancel" = "Cancel";
+"Enter" = "Enter";
+"Show Password" = "Show Password";
+"Hide Password" = "Hide Password";
+"Enter Wi-Fi Password" = "Enter Wi-Fi Password";
+"Module Registered successfully" = "Registration successful";
+"Loading login page" = "Loading login page";
+"No internet connection" = "No internet connection";
+"All" = "All";
+"ARTIK 0" = "ARTIK 0";
+"ARTIK 5" = "ARTIK 5";
+"ARTIK 7" = "ARTIK 7";
+"ARTIK 10" = "ARTIK 10";

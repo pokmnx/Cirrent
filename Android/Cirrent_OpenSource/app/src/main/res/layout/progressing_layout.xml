@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffffff"
+    >
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:id="@+id/device_imageView"
+        android:scaleType="fitCenter" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/network_name"
+        android:layout_below="@+id/device_imageView"
+        android:text="Network Name"
+        android:textSize="18dp"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:layout_marginTop="16dp"
+        />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/network_name"
+        android:layout_margin="16dp"
+        android:scaleType="fitCenter"
+        android:id="@+id/provider_imageview"
+        android:src="@drawable/xfinity"
+        />
+
+</RelativeLayout>

@@ -1,0 +1,20 @@
+
+
+framework module CirrentSDK {
+    umbrella header "CirrentSDK.h"
+    
+    export *
+    module * {
+        export *
+    }
+}
+
+explicit module CirrentSDK.NetworkTool {
+    header "NetworkTool.h"
+    export *
+}
+
+explicit module CirrentSDK.RSAUtil {
+    header "RSAUtil.h"
+    export *
+}

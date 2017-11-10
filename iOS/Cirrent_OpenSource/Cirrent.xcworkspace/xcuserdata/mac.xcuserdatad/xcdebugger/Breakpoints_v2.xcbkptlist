@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cirrent/CirrentSDK/CirrentService.swift"
+            timestampString = "518323941.379725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1219"
+            endingLineNumber = "1219"
+            landmarkName = "getDeviceJoiningStatus(tokenMethod:deviceID:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cirrent/CirrentSDK/CirrentService.swift"
+            timestampString = "518323941.379725"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1194"
+            endingLineNumber = "1194"
+            landmarkName = "getDeviceJoiningStatus(tokenMethod:deviceID:handler:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cirrent/CirrentSDK/CirrentService.swift"
+            timestampString = "518324783.03641"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1409"
+            endingLineNumber = "1409"
+            landmarkName = "getDeviceJoiningStatusfromCloud(manageToken:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cirrent.CirrentService.(getDeviceJoiningStatusfromCloud in _17899857391A411DDED86254BA09F8F3) (manageToken : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, handler : (Cirrent.JOINING_STATUS_) -&gt; ()) -&gt; ()"
+                  moduleName = "Cirrent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/new_design/Cirrent-3.1/Cirrent_OpenSource/Cirrent/CirrentSDK/CirrentService.swift"
+                  timestampString = "518324891.415861"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1409"
+                  endingLineNumber = "1409"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cirrent.CirrentService.((getDeviceJoiningStatusfromCloud in _17899857391A411DDED86254BA09F8F3) (manageToken : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, handler : (Cirrent.JOINING_STATUS_) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Cirrent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/new_design/Cirrent-3.1/Cirrent_OpenSource/Cirrent/CirrentSDK/CirrentService.swift"
+                  timestampString = "518324891.419978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1411"
+                  endingLineNumber = "1411"
+                  offsetFromSymbolStart = "84">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Cirrent/CirrentSDK/CirrentService.swift"
+            timestampString = "518324784.492492"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "1411"
+            endingLineNumber = "1411"
+            landmarkName = "getDeviceJoiningStatusfromCloud(manageToken:handler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cirrent.CirrentService.((getDeviceJoiningStatusfromCloud in _17899857391A411DDED86254BA09F8F3) (manageToken : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, handler : (Cirrent.JOINING_STATUS_) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Cirrent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/new_design/Cirrent-3.1/Cirrent_OpenSource/Cirrent/CirrentSDK/CirrentService.swift"
+                  timestampString = "518324891.428395"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1411"
+                  endingLineNumber = "1411"
+                  offsetFromSymbolStart = "84">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Cirrent.CirrentService.((getDeviceJoiningStatusfromCloud in _17899857391A411DDED86254BA09F8F3) (manageToken : Swift.ImplicitlyUnwrappedOptional&lt;Swift.String&gt;, handler : (Cirrent.JOINING_STATUS_) -&gt; ()) -&gt; ()).(closure #1)"
+                  moduleName = "Cirrent"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mac/Desktop/new_design/Cirrent-3.1/Cirrent_OpenSource/Cirrent/CirrentSDK/CirrentService.swift"
+                  timestampString = "518324891.432526"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "1411"
+                  endingLineNumber = "1411"
+                  offsetFromSymbolStart = "148">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

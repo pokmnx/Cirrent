@@ -1,0 +1,23 @@
+PODS:
+  - ActionCell (2.0.9)
+  - IQKeyboardManagerSwift (4.0.8)
+  - JGProgressHUD (1.4)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+
+DEPENDENCIES:
+  - ActionCell (~> 2.0.0)
+  - IQKeyboardManagerSwift
+  - JGProgressHUD
+  - SDWebImage
+
+SPEC CHECKSUMS:
+  ActionCell: 302a045ac5b1a0b6a2d8d08d93e1e166ac44f1ae
+  IQKeyboardManagerSwift: c04bc9f68473823f825eb44d958fce98d921bead
+  JGProgressHUD: 1617b0940cf80bb53e8f7d6f0fd69252ea45d6d4
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+
+PODFILE CHECKSUM: e4cbf0270fcb623a51fe96295dd103ccf94d7bed
+
+COCOAPODS: 1.1.1

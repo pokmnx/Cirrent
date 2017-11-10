@@ -1,0 +1,6 @@
+framework module Pods_Cirrent {
+  umbrella header "Pods-Cirrent-umbrella.h"
+
+  export *
+  module * { export * }
+}

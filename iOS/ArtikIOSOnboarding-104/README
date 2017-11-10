@@ -1,0 +1,31 @@
+Samsung Artik Onboarding Android Application
+
+FEATURES
+
+1) Login/SignUp Artik Cloud Account
+2) Device Dashboard
+3) Device Control
+4) Onboarding - Artik 520,710,530, 020,030,05X modules
+
+PRE-REQUISITES
+1) Cocoapods - https://cocoapods.org/
+2) Minimum Xcode 8
+
+INSTALL
+
+Unzip the file and on the terminal go to the directory.
+Execute "pod install" to install all the dependencies.
+Open the project in Xcode 8 by clicking on SamsungARTIK.xcworkspace
+
+LICENSE
+
+Copyright Samsung ARTIK
+
+AUTHORS
+
+Samsung Artik E2E Development Team
+
+BUG REPORTING
+
+Report on artik.io forums
+
